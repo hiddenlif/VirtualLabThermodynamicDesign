@@ -20,9 +20,7 @@ Implement `app/controller.py` using the JSON-lines contract in `TASK.md` and `ap
 
 ## Execution evidence
 
-Three historical reference runs passed, each accepting all three campaigns. A no-op scored zero. These are local reference results, not blind solver results or platform approval.
-
-The historical evidence concerns the source version. This publication separates public inputs from private evaluation material and cleans documentation. No new task execution or model trial was performed for this publication, and the cleaned repository has not been revalidated end to end.
+On 2026-10-24 this published repository was run end to end: with the private reference installed in `app/`, the private grader accepted all three campaigns (reward 1, about 10 minutes); the unchanged starter scored 0. Three historical reference runs of the source version also passed. These are local reference results in Docker, not blind solver results or platform approval.
 
 ## Reference and verifier
 
