@@ -1,4 +1,4 @@
-# Virtual Lab: thermodynamic design
+# Virtual Lab Task: Calorimetry Experiment Design
 
 Choose calorimetry experiments and use their simulated measurements to certify the operating response of two synthetic protein lots. Experiment choices affect both the observations and irreversible stock consumption.
 
