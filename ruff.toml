@@ -1,0 +1,7 @@
+# Linted and formatted with ruff using its default rules. The per-file exceptions below are deliberate.
+
+[lint.per-file-ignores]
+# A malformed instrument message is reported to the planner instead of raising.
+"app/campaign.py" = ["BLE001"]
+# Certificate validation reports every malformed field as a ValueError, which callers handle.
+"app/checker.py" = ["TRY004"]
